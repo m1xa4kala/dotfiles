@@ -11,6 +11,7 @@ Plug 'cohama/lexima.vim'
 if has("nvim")
   Plug 'neovim/nvim-lspconfig'
   Plug 'tami5/lspsaga.nvim'
+  Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 endif
 
 Plug 'groenewege/vim-less', { 'for': 'less' }
